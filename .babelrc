@@ -1,4 +1,13 @@
 {
+    "plugins": [
+        [
+          "babel-plugin-styled-components",
+          {
+            "ssr": false
+          }
+        ]
+      ],
+
     "presets": ["next/babel", "@babel/preset-typescript"]
     //next/babel: permite que o codigo do jest entanda novas funcionalidades do JS 
     //"@babel/preset-typescript: como vai ser feito em TS precisamos do preset
